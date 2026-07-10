@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.common-button{
+    font-weight: bold;
+    color: aliceblue;
+    padding: 6px 20px;
+    border: solid #1D4ED8;
+    border-radius: 7px;
+    background-color: #1D4ED8;
+    cursor: pointer;
+}
+
+/* header section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px;
+}
+
+.header-diva img{
+    height: 30px;
+}
+.header-divb ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    list-style: none;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+/* header section end */
+/* main section */
+.main-section{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.489)), url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    height: 100vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+.main-section button{
+    width: 16%;
+    align-items: center;   
+}
+/* main section end */
+/* meet the speakers sectionend */
+
+/* .speaker-section{
+     
+} */
+
+.speaker-head{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 40px;
+    font-weight: 750;
+}
+.introduction1{
+    display: grid;
+    /* justify-content: center; */
+    max-width: 1200px;  
+    grid-template-columns: repeat(2,1fr);
+    gap: 90px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.introduction{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding-bottom: 50px;
+}
+.introduction img{
+    width: 100%;
+    height: auto; 
+}
+
+.track{
+    color: #2563EB;
+    font-size: 11px;
+    margin: 6px 10px;
+    font-weight: 600;
+}
+
+.speaker-section .introduction1 .introduction h4{
+    margin: 6px 10px;
+}
+
+.role2{
+    margin: 6px 10px;
+    font-weight: 200;
+}
+
+/* main section end*/
+
+/* secure your spot section */
+
+.secure{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.offer{
+    margin-bottom: 30px;
+}
+.divider{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.price{
+    margin-top: 50px;
+}
+
+.secure-head{
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.secure-headp{
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 40px;
+    text-align: left;
+}
+
+.point{
+    margin-bottom: 20px;
+}
+
+.unique-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
