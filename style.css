@@ -499,8 +499,6 @@
     align-items: center;
 }
 
-
-
 .footer-social {
     display: flex;
     gap: 12px;
@@ -518,6 +516,7 @@
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .social-icon:hover {
@@ -562,5 +561,12 @@
     color: #00d4ff;
 }
 
-
+@media (max-width: 600px) {
+    .footer-top,
+    .footer-bottom {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+}
 /* footer end */
