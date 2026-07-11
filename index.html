@@ -11,6 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <!-- font -->
+ <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <!-- icon -->
 </head>
 <body>
     <!-- header section -->
@@ -48,7 +51,7 @@
             <div class="introduction">
               <img src="./assets/andrej.png" alt=""> 
               <span class="track">ai / ML</span>
-              <h4>Andej Karpathy</h4>
+              <h4>Andrej Karpathy</h4>
               <p class="role2">Pretraining team, Anthropic</p>           
             </div>
             <div class="introduction">
@@ -138,6 +141,195 @@
         </div>
       </section>
      <!-- secure your spot section -->
+<!-- Ai made section  -->
 
+<section class="faq">
+  <h2 class="faq-head">Frequently Asked Questions</h2>
+  <p class="faq-headp">Still deciding? Here's what most people ask before registering.</p>
+
+  <div class="faq-list">
+
+    <div class="faq-item">
+      <button class="faq-question">
+        What's included in the ticket price?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Every tier includes access to the main conference days and recordings. Pro and Team tiers add workshops, mentorship, and networking events. See the full breakdown in the pricing section above.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Can I upgrade my ticket after registering?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Yes. You can upgrade from Standard to Pro or Team any time before the event starts. Contact support and we'll adjust the difference in price.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Is early-bird pricing refundable if I can't attend?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Full refunds are available up to 30 days before the event. After that, tickets can be transferred to a colleague at no extra cost.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Will sessions be recorded if I can't attend live?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Yes. Standard tickets include 30 days of digital recordings. Pro and Team tickets include lifetime access to every session recording.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Do you offer group discounts for teams larger than 10?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Yes, reach out through the Team tier's "Contact Us" button and we'll put together custom pricing based on your headcount.</p>
+      </div>
+    </div>
+
+  </div>
+</section> 
+
+<script>
+document.querySelectorAll('.faq-question').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var item = btn.parentElement;
+    var isOpen = item.classList.contains('open');
+
+    document.querySelectorAll('.faq-item').forEach(function (el) {
+      el.classList.remove('open');
+    });
+
+    if (!isOpen) {
+      item.classList.add('open');
+    }
+  });
+});
+</script>
+
+
+  
+<section class="ask-speakers">
+  <h2 class="ask-head">Ask the Speakers</h2>
+  <p class="ask-headp">Have a question before the talks even start? Submit it below — top questions get answered live during Q&A.</p>
+
+  <div class="ask-grid">
+
+    <div class="ask-column">
+      <div class="speaker-tag">
+        <div class="mini-initials">AK</div>
+        <span class="speaker-tag-name">Andrej Karpathy</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"How much of pretraining today is still trial-and-error versus principled design?"</p>
+        <span class="question-votes">▲ 214</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"What's the most underrated skill for someone entering ML right now?"</p>
+        <span class="question-votes">▲ 158</span>
+      </div>
+    </div>
+
+    <div class="ask-column">
+      <div class="speaker-tag">
+        <div class="mini-initials">DH</div>
+        <span class="speaker-tag-name">Demis Hassabis</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"What does responsible scaling look like at DeepMind's current pace?"</p>
+        <span class="question-votes">▲ 301</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"Any advice for research teams operating with far smaller compute budgets?"</p>
+        <span class="question-votes">▲ 97</span>
+      </div>
+    </div>
+
+    <div class="ask-column">
+      <div class="speaker-tag">
+        <div class="mini-initials">GM</div>
+        <span class="speaker-tag-name">Gary Marcus</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"What frontend architecture decisions age the worst in your experience?"</p>
+        <span class="question-votes">▲ 132</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"Is component-driven design still worth the overhead for small teams?"</p>
+        <span class="question-votes">▲ 88</span>
+      </div>
+    </div>
+
+    <div class="ask-column">
+      <div class="speaker-tag">
+        <div class="mini-initials">MS</div>
+        <span class="speaker-tag-name">Mustafa Suleyman</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"Where should security teams focus first when adopting AI tooling internally?"</p>
+        <span class="question-votes">▲ 176</span>
+      </div>
+      <div class="question-card">
+        <p class="question-text">"What's the most common security mistake fast-moving teams make?"</p>
+        <span class="question-votes">▲ 121</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ask-form">
+    <p class="ask-form-label">Submit your own question</p>
+    <div class="ask-form-row">
+      <select class="ask-select">
+        <option>Choose a speaker</option>
+        <option>Andrej Karpathy</option>
+        <option>Demis Hassabis</option>
+        <option>Gary Marcus</option>
+        <option>Mustafa Suleyman</option>
+      </select>
+      <input type="text" class="ask-input" placeholder="Type your question...">
+      <button class="askbtn">Submit</button>
+    </div>
+  </div>
+
+</section>
+
+<!-- Ai made section  end -->
+  <!-- footer section end -->
+ <footer class="site-footer">
+  <div class="footer-top">
+    <div> <img src="./assets/footer-logo.png" alt=""></div>
+
+    <div class="footer-social">
+      <a href="#" class="social-icon" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-bottom">
+    <p class="footer-copyright">© 2026 DevConf. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#" class="footer-link">Privacy Policy</a>
+      <a href="#" class="footer-link">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+ <!-- footer section end -->
 </body>
 </html> 
