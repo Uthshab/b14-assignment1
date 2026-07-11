@@ -112,13 +112,22 @@
 .offer{
     margin-bottom: 30px;
 }
+
+.note{
+    font-size: 11px;
+    color: #888888;
+}
 .divider{
     border-bottom: 1px solid black;
     margin-bottom: 20px;
+    border-color: #bdbdbd;
 }
 
 .price{
-    margin-top: 50px;
+    display: flex;
+    gap: 0px 20px;
+    margin: 50px;
+
 }
 
 .secure-head{
@@ -134,17 +143,74 @@
 }
 
 .card{
-    border: 1px solid black;
+    border: 1px solid #888888;
     padding: 40px;
     text-align: left;
+    margin-bottom: 40px;
+    border-radius: 12px;
+
 }
 
 .point{
     margin-bottom: 20px;
+    color: #333333;
+
 }
 
-.unique-button{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.button3{
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #7164ff;
+    border-radius: 3px;
+    color: #2563EB;
+    font-weight: 600;
+}
+.secure .price .card .point li{
+    font-size: 12px;
+}
+.secure .price .card .point li::marker{
+ color: #2563EB;   
+}
+
+.note_pro{
+    margin-top: 10px;
+    color: #2563EB;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.point2 li{
+    color: #FFFFFF; 
+    font-size: 12px;
+    font-weight: 100;   
+}
+.button4{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #2563EB;
+    box-sizing: border-box;
+    border: 1px solid #7164ff;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0px 70px;
+}
+
+.button5{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #202020;
+    border-radius: 3px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0px 70px;
 }
