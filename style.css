@@ -132,8 +132,10 @@
 
 .secure-head{
     margin-top: 100px;
-    font-weight: 900;
-    font-size: 48px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 750;
+    margin-bottom: 20px;
 }
 
 .secure-headp{
